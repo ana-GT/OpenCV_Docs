@@ -9,10 +9,14 @@ include_directories( .
 				     /usr/local/include )
 
 
-set ( SRC_FILES T2_matrix.cpp )
+set ( SRC_FILES basic_1.cpp )
 set ( HDR_FILES )
 set ( OpenCV_LIBS opencv_core
-				  opencv_highgui )
+				  opencv_highgui
+                  opencv_nonfree
+                  opencv_features2d )
 
-add_executable ( Code ${SRC_FILES} ${HDR_FILES} )
-target_link_libraries( Code ${OpenCV_LIBS} )
+#add_executable ( Code ${SRC_FILES} ${HDR_FILES} )
+#target_link_libraries( Code ${OpenCV_LIBS} )
+add_executable ( SURF_Descriptor SURF_Descriptor.cpp )
+target_link_libraries( SURF_Descriptor ${OpenCV_LIBS} )

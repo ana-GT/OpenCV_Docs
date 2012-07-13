@@ -89,9 +89,6 @@ Explanation
    the argument sets the delay (in ms). A value of 0 indicates an infinite delay. 
 
 
-.. |basic_Fig1| image::	T2_matrix.png
-		:alt: "Image output"
-
 Compilation
 ===========
 
@@ -115,3 +112,10 @@ Here a sample CMakeLists.txt file for the file above:
 
 	add_executable ( Code ${SRC_FILES} ${HDR_FILES} )
 	target_link_libraries( Code ${OpenCV_LIBS} )
+
+.. Images references
+
+.. |basic_Fig1| image::	T2_matrix.png
+   		:align: middle
+		:height: 250pt
+		

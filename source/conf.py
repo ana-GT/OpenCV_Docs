@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenCV_Docs'
+project = u'Tutorials'
 copyright = u'2012, Ana Huaman'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -249,4 +249,8 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 extlinks = { 'opencv_svn' : ('http://sourceforge.net/projects/opencvlibrary/files/%s', None),
              'cv_namespace' : ('http://docs.opencv.org/modules/core/doc/intro.html#cv-namespace%s', None),
              'mat' : ('http://docs.opencv.org/modules/core/doc/basic_structures.html#mat%s', None),
-             'wait_key' : ('http://docs.opencv.org/modules/highgui/doc/user_interface.html#waitkey%s', None)}
+             'scalar' : ('http://docs.opencv.org/modules/core/doc/basic_structures.html#scalar%s', None),
+             'wait_key' : ('http://docs.opencv.org/modules/highgui/doc/user_interface.html#waitkey%s', None),
+             'trackbar' : ('http://docs.opencv.org/modules/highgui/doc/user_interface.html#createtrackbar%s', None),
+             'surf_operator' : ('http://docs.opencv.org/modules/nonfree/doc/feature_detection.html#surf-operator%s', None),
+             'bf_matcher' : ('http://docs.opencv.org/modules/features2d/doc/common_interfaces_of_descriptor_matchers.html#bfmatcher%s', None) }

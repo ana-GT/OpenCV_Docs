@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OpenCV_Docs's documentation!
+Welcome!
 =======================================
 
 Contents:
@@ -13,6 +13,8 @@ Contents:
 
    tutorials/installation.rst
    tutorials/basic_matrix_1/basic_matrix_1.rst
+   tutorials/basic_2/basic_2.rst
+   tutorials/nonfree_1/nonfree_1.rst
 
 
 Indices and tables
