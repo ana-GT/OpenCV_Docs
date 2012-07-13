@@ -246,4 +246,7 @@ texinfo_documents = [
 intersphinx_mapping = {'http://docs.python.org/': None}
 
 # External links
-extlinks = { 'opencv_svn' : ('http://sourceforge.net/projects/opencvlibrary/files/%s', None) }
+extlinks = { 'opencv_svn' : ('http://sourceforge.net/projects/opencvlibrary/files/%s', None),
+             'cv_namespace' : ('http://docs.opencv.org/modules/core/doc/intro.html#cv-namespace%s', None),
+             'mat' : ('http://docs.opencv.org/modules/core/doc/basic_structures.html#mat%s', None),
+             'wait_key' : ('http://docs.opencv.org/modules/highgui/doc/user_interface.html#waitkey%s', None)}

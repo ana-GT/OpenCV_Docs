@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    tutorials/installation.rst
-
+   tutorials/basic_matrix_1/basic_matrix_1.rst
 
 
 Indices and tables
